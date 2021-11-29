@@ -1,0 +1,45 @@
+.comment-box{
+    width: 100%;
+    resize: none;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 20px;
+    height: 184px;
+    margin-bottom: 2rem;
+}
+.input-field{
+    cursor: pointer;
+    background-color: #fff;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    position: relative;
+    width: 70%;
+    height: 42px;
+    min-height: 42px;
+    padding-left: 12px;
+    padding-right: 44px;
+    font-weight: 400;
+    -webkit-appearance: none;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 4px;
+    font-size: 14px;
+    z-index: 0;
+}
+.button{
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    padding: 17px 26px;
+    text-decoration: none;
+    border: 2px solid #f37032;
+    background: #f2f2f2;
+    width: 100%;
+}
+.primary{
+    background: linear-gradient(
+202.75deg,#f15151,#f37032);
+}

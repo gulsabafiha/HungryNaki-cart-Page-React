@@ -1,0 +1,22 @@
+footer {
+  background-color: rgb(41, 47, 72);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding:3rem 15rem;
+}
+
+footer h5 {
+  color: white;
+}
+footer p {
+  color: gray;
+}
+.footer-p {
+  line-height: 1rem;
+}
+.sub-btn {
+  width: 25%;
+  border: none;
+  background: linear-gradient(225deg, #fa5757, #f25f2c);
+  padding: 8px 12px;
+}
